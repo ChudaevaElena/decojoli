@@ -1,0 +1,159 @@
+.modalContainer {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition);
+  &.open {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+.modal {
+  background: var(--snow-white);
+  width: 90%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid var(--b6-gray);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity var(--transition);
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.title {
+  padding-right: 40px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.copyContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  .copyBtn {
+    background: none;
+    border: 1px solid var(--b6-gray);
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background var(--transition);
+    &:hover {
+      background: var(--f1-gray);
+    }
+  }
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  :global(input) {
+    width: 100%;
+    background: var(--snow-white);
+    border: 1px solid var(--b6-gray);
+    padding: 12px 16px;
+    outline: none;
+    transition: border-color var(--transition);
+    &:focus {
+      border-color: var(--two-black);
+    }
+  }
+}
+
+.telContainer {
+  position: relative;
+  :global(input) {
+    width: 100%;
+    background: var(--snow-white);
+    border: 1px solid var(--b6-gray);
+    padding: 12px 40px 12px 16px;
+    outline: none;
+    &:focus {
+      border-color: var(--two-black);
+    }
+  }
+  img {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    pointer-events: none;
+    width: 20px;
+  }
+}
+
+:global(textarea) {
+  width: 100%;
+  background: var(--snow-white);
+  border: 1px solid var(--b6-gray);
+  padding: 12px 16px;
+  resize: vertical;
+  font-family: inherit;
+  &:focus {
+    border-color: var(--two-black);
+    outline: none;
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  :global(input) {
+    margin-top: 2px;
+  }
+  span {
+    color: var(--8e-gray);
+    a {
+      color: var(--two-black);
+      text-decoration: underline;
+    }
+  }
+}
+
+.sendSuccess {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}

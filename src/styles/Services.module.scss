@@ -1,0 +1,36 @@
+.servicesList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.serviceCard {
+  border: 1px solid var(--b6-gray);
+  padding: 32px;
+  h2 {
+    margin-bottom: 24px;
+  }
+  .accordions {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.notDoingGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+  .notDoingItem {
+    padding: 16px;
+    text-align: center;
+    border: 1px solid var(--b6-gray);
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 900px) {
+  .notDoingGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

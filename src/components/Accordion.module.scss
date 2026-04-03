@@ -1,0 +1,33 @@
+.item {
+  border-bottom: 1px solid var(--b6-gray);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  text-align: left;
+  cursor: pointer;
+  h3 {
+    font-weight: 500;
+  }
+  .icon {
+    font-size: 24px;
+    color: var(--8e-gray);
+  }
+}
+
+.content {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.inner {
+  padding-bottom: 20px;
+  :global(pre) {
+    white-space: pre-wrap;
+    color: var(--8e-gray);
+  }
+}

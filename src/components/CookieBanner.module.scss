@@ -1,0 +1,35 @@
+.banner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  max-width: 480px;
+  background: var(--snow-white);
+  border: 1px solid var(--b6-gray);
+  padding: 20px;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  .buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    :global(button) {
+      background: var(--two-black);
+      color: var(--snow-white);
+      border: none;
+      padding: 8px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background var(--transition);
+      &:hover {
+        background: var(--8e-gray);
+      }
+    }
+    a {
+      color: var(--8e-gray);
+    }
+  }
+}
