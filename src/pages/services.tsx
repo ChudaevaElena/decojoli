@@ -105,36 +105,7 @@ export default function Services() {
         </div>
       </main>
 
-      <section className="section">
-        <div className="container">
-          <SectionHeader
-            title="Не делаем"
-            description="Что мы не предлагаем"
-            descriptionClassname="h2"
-          />
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '20px', marginTop: '40px' }}>
-            <div style={{ padding: '16px', textAlign: 'center', fontWeight: 500 }}>
-              Типовые проекты без адаптации
-            </div>
-            <div style={{ padding: '16px', textAlign: 'center', fontWeight: 500 }}>
-              Работа с материалами низкого качества
-            </div>
-            <div style={{ padding: '16px', textAlign: 'center', fontWeight: 500 }}>
-              Сборка без выезда специалиста
-            </div>
-            <div style={{ padding: '16px', textAlign: 'center', fontWeight: 500 }}>
-              Продажа готовой мебели со склада
-            </div>
-          </div>
-          <style jsx>{`
-            @media (max-width: 900px) {
-              div div {
-                grid-template-columns: repeat(2, 1fr);
-              }
-            }
-          `}</style>
-        </div>
-      </section>
+
 
       <section className="section">
         <div className="container">

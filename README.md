@@ -1,3 +1,30 @@
+# decojoli - Премиальная мебель на заказ
+
+Сайт фабрики decojoli, специализирующейся на изготовлении премиальной мебели на заказ.
+
+## Технологии
+
+- Next.js 14 (Pages Router)
+- TypeScript
+- CSS Modules
+- Nodemailer
+
+## Установка и запуск
+
+```bash
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm run dev
+
+# Сборка для продакшена
+npm run build
+
+# Запуск продакшен версии
+npm start
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
