@@ -60,7 +60,7 @@ export default function About() {
                 style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover' }}
               />
               <img
-                src="https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%283%29.jpg"
+                src="https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image1.1/12.png"
                 alt="Фабрика decojoli - 2"
                 style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover' }}
               />

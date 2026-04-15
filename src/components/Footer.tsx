@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
           </div>
           <Link href="https://decojoli.ru/" target="_blank" style={{ fontSize: '12px', color: 'var(--b6-gray)' }}>
-            decojoli
+            ИП Ульянов И. О.
           </Link>
         </div>
       </div>
