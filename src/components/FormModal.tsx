@@ -142,10 +142,9 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-            <a href="tel:+79662491036" style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '16px' }}>
+            <a href="tel:+79662491036" style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '16px', textDecoration: 'none', color: 'inherit' }}>
               <img src="/icons/phone.svg" alt="phone" width={25} height={25} />
-              +7 (966) 249-10-36
-            </a>
+              +7 (991) 974-51-71            </a>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
               <img src="/icons/email.svg" alt="email" width={25} height={25} />
               <span style={{ fontSize: '16px' }}>hello@decojoli.ru</span>
@@ -169,7 +168,7 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
           {!isSent ? (
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <p style={{ fontSize: '16px', color: 'var(--8e-gray)' }}>
-                Или оставьте номер телефона/WhatsApp/Telegram и мы свяжемся с вами в ближайшее время:
+                Или оставьте номер телефона и мы свяжемся с вами в ближайшее время:
               </p>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                 <input
@@ -271,8 +270,9 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
                 disabled={status === 'loading' || !formData.consent}
                 style={{
                   display: 'inline-block',
-                  border: '1px solid var(--two-black)',
-                  background: status === 'loading' || !formData.consent ? 'var(--b6-gray)' : 'transparent',
+                  border: 'none',
+                  background: status === 'loading' || !formData.consent ? 'var(--b6-gray)' : 'var(--two-black)',
+                  color: status === 'loading' || !formData.consent ? 'var(--8e-gray)' : 'var(--snow-white)',
                   padding: '14px 32px',
                   fontSize: '14px',
                   fontWeight: 500,
@@ -280,6 +280,7 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
                   cursor: status === 'loading' || !formData.consent ? 'not-allowed' : 'pointer',
                   transition: 'all 0.3s ease',
                   borderRadius: '100px',
+                  pointerEvents: status === 'loading' || !formData.consent ? 'none' : 'auto',
                 }}
               >
                 {status === 'loading' ? 'Отправка...' : 'Отправить'}

@@ -20,12 +20,18 @@ export default function ProjectsList({ projects }: ProjectsListProps) {
         <title>decojoli – Проекты интерьеров</title>
         <meta
           name="description"
-          content="Наше портфолио: эксклюзивные проекты интерьеров домов и квартир, обставленных мебелью на заказ."
+          content="Портфолио decojoli: эксклюзивные проекты интерьеров домов и квартир, обставленных мебелью на заказ. Кухни, шкафы, мебель из массива дерева. Производители мебели в Москве."
         />
         <meta
           name="keywords"
-          content="портфолио decojoli, проекты мебели, интерьеры домов, мебель на заказ, премиальная мебель"
+          content="портфолио decojoli, проекты мебели, интерьеры домов, мебель на заказ, премиальная мебель, кухни на заказ Москва, мебель из массива, дизайн интерьера, изготовление мебели, мебель в Москву, проекты кухонь, проекты шкафов, мебель для спальни, мебель для гостиной, офисная мебель, коммерческая мебель"
         />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="decojoli" />
+        <meta name="language" content="Russian" />
+        <meta name="geo.region" content="RU-MOW" />
+        <meta name="geo.placename" content="Москва" />
+        <meta name="revisit-after" content="7 days" />
         <meta property="og:title" content="decojoli – Проекты интерьеров" />
         <meta property="og:description" content="Наше портфолио: эксклюзивные проекты интерьеров, обставленных мебелью на заказ." />
         <meta property="og:url" content="https://decojoli.ru/projects/" />
@@ -79,16 +85,15 @@ export default function ProjectsList({ projects }: ProjectsListProps) {
 
           {filter === 'residential' ? (
             <div>
-              {projects.map((project) => (
+              {projects.filter(p => p.category === 'residential').map((project) => (
                 <ProjectCard key={project.id} project={project} isSubTitle />
               ))}
             </div>
           ) : (
-            <div style={{ textAlign: 'center', padding: '60px 20px' }}>
-              <h3 className="h3" style={{ marginBottom: '16px', color: 'var(--8e-gray)' }}>
-                Скоро здесь появятся проекты коммерческих интерьеров
-              </h3>
-              <p className="text" style={{ color: 'var(--8e-gray)' }}>Мы работаем над новыми объектами. Следите за обновлениями!</p>
+            <div>
+              {projects.filter(p => p.category === 'commercial').map((project) => (
+                <ProjectCard key={project.id} project={project} isSubTitle />
+              ))}
             </div>
           )}
         </div>

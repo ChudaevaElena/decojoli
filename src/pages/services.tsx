@@ -59,12 +59,17 @@ export default function Services() {
         <title>decojoli – Услуги по изготовлению мебели на заказ</title>
         <meta
           name="description"
-          content="Разработка дизайн-проекта мебели • Изготовление на заказ • Авторский надзор • Комплектация. Полный цикл создания мебели для вашего интерьера."
+          content="Разработка дизайн-проекта мебели • Изготовление на заказ • Авторский надзор • Комплектация. Полный цикл создания мебели для вашего интерьера. Кухни, шкафы, мебель из массива дерева."
         />
         <meta
           name="keywords"
-          content="услуги decojoli, дизайн-проект мебели, изготовление мебели на заказ, авторский надзор, комплектация"
+          content="услуги decojoli, дизайн-проект мебели, изготовление мебели на заказ, авторский надзор, комплектация, кухни на заказ, шкафы на заказ, мебель из массива, дизайн интерьера, мебель в Москву, производители мебели Москва"
         />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="decojoli" />
+        <meta name="language" content="Russian" />
+        <meta name="geo.region" content="RU-MOW" />
+        <meta name="geo.placename" content="Москва" />
         <meta property="og:title" content="decojoli – Услуги" />
         <meta property="og:description" content="Разработка дизайн-проекта мебели • Изготовление на заказ • Авторский надзор • Комплектация" />
         <meta property="og:url" content="https://decojoli.ru/services/" />

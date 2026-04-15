@@ -8,12 +8,17 @@ export default function About() {
         <title>decojoli – О фабрике</title>
         <meta
           name="description"
-          content="Собственное производство полного цикла. 20 лет опыта, уникальные технологии, лучшие материалы. Реализуем проекты любой сложности."
+          content="Собственное производство полного цикла. 20 лет опыта, уникальные технологии, лучшие материалы. Реализуем проекты любой сложности. Производители мебели и кухонь в Москве."
         />
         <meta
           name="keywords"
-          content="о decojoli, фабрика мебели, производство мебели, мебель на заказ, премиальная мебель"
+          content="о decojoli, фабрика мебели, производство мебели, мебель на заказ, премиальная мебель, кухни на заказ, шкафы на заказ, мебель из массива, дизайн интерьера, изготовление мебели, мебель в Москву, производители мебели Москва"
         />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="decojoli" />
+        <meta name="language" content="Russian" />
+        <meta name="geo.region" content="RU-MOW" />
+        <meta name="geo.placename" content="Москва" />
         <meta property="og:title" content="decojoli – О фабрике" />
         <meta property="og:description" content="Собственное производство полного цикла. 20 лет опыта, уникальные технологии, лучшие материалы." />
         <meta property="og:url" content="https://decojoli.ru/about/" />

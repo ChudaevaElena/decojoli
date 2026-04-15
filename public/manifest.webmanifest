@@ -1,0 +1,16 @@
+{
+  "name": "decojoli",
+  "short_name": "decojoli",
+  "description": "Премиальная мебель на заказ. Кухни, шкафы, мебель из массива дерева. Индивидуальный дизайн и производство в Москве.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#252324",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -41,7 +41,7 @@ export default function HeroSection() {
         color: 'var(--snow-white)',
       }}>
         <h1 className="h1" style={{ marginBottom: '24px' }}>
-          Искусство мебели<br />для тех, кто ценит.
+          Искусство мебели<br /><span style={{ fontSize: '0.5em' }}>для тех, кто ценит</span>
         </h1>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
           <button

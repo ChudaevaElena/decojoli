@@ -18,7 +18,6 @@ export default function Footer() {
             { href: '/projects', title: 'Проекты' },
             { href: '/services', title: 'Услуги' },
             { href: '/contact', title: 'Контакты' },
-            { href: '/about#vacancies', title: 'Вакансии' },
           ].map(link => (
             <Link key={link.href} href={link.href} style={{ color: 'var(--snow-white)', fontSize: '16px' }}>
               {link.title}

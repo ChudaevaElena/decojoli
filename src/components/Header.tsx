@@ -66,8 +66,7 @@ export default function Header({ openModal }: HeaderProps) {
             </Link>
           ))}
           <button className={styles.phoneBtn} onClick={openModal}>
-            +7 (966) 249-10-36
-          </button>
+            +7 (991) 974-51-71          </button>
         </nav>
 
         <div className={styles.mobileMenu}>
@@ -96,8 +95,7 @@ export default function Header({ openModal }: HeaderProps) {
             ))}
           </nav>
           <button className={styles.phoneBtn} onClick={() => { setMenuOpen(false); openModal(); }}>
-            +7 (966) 249-10-36
-          </button>
+            +7 (991) 974-51-71          </button>
         </div>
       </div>
     </header>

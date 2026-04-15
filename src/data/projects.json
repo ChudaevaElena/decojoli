@@ -7,13 +7,13 @@
     "square": "450 м²",
     "year": "2025",
     "description": "Интерьер гостиной в частном доме, оформленный в современном минимализме. Главный акцент – модульная система хранения из массива дуба со стеклянными вставками и интегрированной подсветкой. Проект реализован «под ключ»: от дизайн-концепции до установки мебели.",
+    "category": "residential",
     "gallery": [
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%289%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%288%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%287%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%286%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%285%29.jpg", "width": 1460, "height": 2000 },
-
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2842%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2841%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2840%29.jpg", "width": 1460, "height": 2000 },
@@ -35,7 +35,6 @@
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2826%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2825%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2824%29.jpg", "width": 1460, "height": 2000 },
-
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2822%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2821%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2820%29.jpg", "width": 1460, "height": 2000 },
@@ -43,7 +42,6 @@
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2819%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2818%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2817%29.jpg", "width": 1460, "height": 2000 },
-
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2815%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2814%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/r34%20%2813%29.jpg", "width": 1460, "height": 2000 },
@@ -62,6 +60,7 @@
     "square": "700 м²",
     "year": "2024",
     "description": "Кухонное пространство загородного дома, спроектированное для комфортного приготовления пищи и семейных обедов. В основе – остров из массива ясеня, встроенная техника и интеллектуальные системы хранения.",
+    "category": "residential",
     "gallery": [
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m58%20%289%29.jpg", "width": 1460, "height": 2000 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m58%20%288%29.jpg", "width": 1460, "height": 2000 },
@@ -106,6 +105,7 @@
     "square": "800 м²",
     "year": "2026",
     "description": "Роскошная спальня в частном доме, оформленная в классическом стиле с современными элементами. Гарнитур из массива дуба с резными фасадами включает кровать, комод, шкаф-купе и прикроватные тумбы.",
+    "category": "residential",
     "gallery": [
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%289%29.jpg", "width": 2080, "height": 2350 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%288%29.jpg", "width": 2080, "height": 2350 },
@@ -129,7 +129,6 @@
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2826%29.jpg", "width": 2080, "height": 2350 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2825%29.jpg", "width": 2080, "height": 2350 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2824%29.jpg", "width": 2080, "height": 2350 },
-
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2822%29.jpg", "width": 2080, "height": 2350 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2821%29.jpg", "width": 2080, "height": 2350 },
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2820%29.jpg", "width": 2080, "height": 2350 },
@@ -146,5 +145,54 @@
       { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%281%29.jpg", "width": 2080, "height": 2350 }
     ],
     "poster": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/m38%20%2816%29.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Savin City",
+    "slug": "savin-city",
+    "city": "Москва",
+    "square": "200 м²",
+    "year": "2023",
+    "description": "Коммерческий интерьер офиса и шоу-рума в современном стиле, сочетающий функциональность и эстетику. Проект включает зоны для работы, отдыха и переговоров, с использованием натуральных материалов и инновационных решений для создания продуктивной рабочей среды.",
+    "category": "commercial",
+    "gallery": [
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2813%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2815%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2816%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2818%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2820%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2821%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2822%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2823%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2824%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2825%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2826%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2827%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2829%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2830%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2832%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2833%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2834%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2835%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2836%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2837%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2838%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2839%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2840%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2841%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2842%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2843%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2844%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2845%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2846%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2847%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2848%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2849%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2850%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2851%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%289%20of%2051%29.jpeg", "width": 1460, "height": 2000 },
+      { "src": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%287%20of%2051%29.jpeg", "width": 1460, "height": 2000 }
+    ],
+    "poster": "https://decojoli-site.hb.ru-msk.vkcloud-storage.ru/_next/image/Savin%20City%20web%20%2813%20of%2051%29.jpeg"
   }
 ]

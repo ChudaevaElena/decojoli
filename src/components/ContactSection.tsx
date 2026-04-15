@@ -31,10 +31,10 @@ export default function ContactSection() {
 
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', gap: '16px' }}>
             <div style={{ display: 'grid', gap: '10px' }}>
-              <a href={`tel:${info.phone.replace(/\D/g, '')}`} className="title" style={{ color: 'var(--two-black)' }}>{info.phone}</a>
+              <a href={`tel:${info.phone.replace(/\D/g, '')}`} className="title" style={{ color: 'var(--two-black)', textDecoration: 'none' }}>{info.phone}</a>
               <p className="text" style={{ color: 'var(--8e-gray)' }}>{info.address}</p>
               <p className="text" style={{ color: 'var(--8e-gray)' }}>Работаем по всей России</p>
-              <a href={`mailto:${info.email}`} className="text" style={{ color: 'var(--8e-gray)' }}>{info.email}</a>
+              <a href={`mailto:${info.email}`} className="text" style={{ color: 'var(--8e-gray)', textDecoration: 'none' }}>{info.email}</a>
             </div>
             <SocialContainer />
           </div>

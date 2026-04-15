@@ -14,6 +14,7 @@ export interface Project {
   description: string;
   gallery: GalleryImage[];
   poster: string;
+  category: 'residential' | 'commercial';
 }
 
 export interface Info {

@@ -15,12 +15,17 @@ export default function Contact() {
         <title>decojoli – Контакты</title>
         <meta
           name="description"
-          content="Телефон +7 (966) 249-10-36, email hello@decojoli.ru, адрес производства в Чебоксарах. Работаем по всей России."
+          content="Телефон +7 (966) 249-10-36, email hello@decojoli.ru, адрес производства в Чебоксарах. Работаем по всей России. Производители мебели и кухонь в Москве."
         />
         <meta
           name="keywords"
-          content="контакты decojoli, телефон decojoli, адрес decojoli, мебель на заказ, премиальная мебель, decojoli"
+          content="контакты decojoli, телефон decojoli, адрес decojoli, мебель на заказ, премиальная мебель, кухни на заказ, шкафы на заказ, мебель из массива, дизайн интерьера, мебель в Москву, производители мебели Москва"
         />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="decojoli" />
+        <meta name="language" content="Russian" />
+        <meta name="geo.region" content="RU-MOW" />
+        <meta name="geo.placename" content="Москва" />
         <meta property="og:title" content="decojoli – Контакты" />
         <meta property="og:description" content="Телефон +7 (966) 249-10-36, email hello@decojoli.ru." />
         <meta property="og:url" content="https://decojoli.ru/contact/" />
@@ -48,12 +53,12 @@ export default function Contact() {
 
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', gap: '16px' }}>
               <div style={{ display: 'grid', gap: '10px' }}>
-                <a href={`tel:${info.phone.replace(/\D/g, '')}`} className="title" style={{ display: 'block' }}>
+                <a href={`tel:${info.phone.replace(/\D/g, '')}`} className="title" style={{ display: 'block', textDecoration: 'none' }}>
                   {info.phone}
                 </a>
                 <p className="text" style={{ color: 'var(--8e-gray)' }}>{info.address}</p>
                 <p className="text" style={{ color: 'var(--8e-gray)' }}>Работаем по всей России</p>
-                <a href={`mailto:${info.email}`} className="text" style={{ color: 'var(--8e-gray)', display: 'block' }}>
+                <a href={`mailto:${info.email}`} className="text" style={{ color: 'var(--8e-gray)', display: 'block', textDecoration: 'none' }}>
                   {info.email}
                 </a>
               </div>
