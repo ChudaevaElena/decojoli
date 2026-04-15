@@ -29,10 +29,10 @@ export default function Footer() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
             <p style={{ fontSize: '16px', color: 'var(--b6-gray)' }}>© 2026 decojoli</p>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
-              <Link href="/polzovatelskoe-soglashenie.docx" target="_blank" style={{ fontSize: '12px', color: 'var(--b6-gray)' }}>
+              <Link href="https://docs.google.com/document/d/1x8cQNKRN8o_LU4G33xj8rWVLhJMHA238/edit?usp=sharing&ouid=114602418702065214894&rtpof=true&sd=true" target="_blank" style={{ fontSize: '12px', color: 'var(--b6-gray)' }}>
                 Пользовательское соглашение
               </Link>
-              <Link href="/politika-konfidenczialnosti.docx" target="_blank" style={{ fontSize: '12px', color: 'var(--b6-gray)' }}>
+              <Link href="https://docs.google.com/document/d/1H39sNY0knypJ2yjN9QEz9DCkJpBygQGj/edit?usp=sharing&ouid=114602418702065214894&rtpof=true&sd=true" target="_blank" style={{ fontSize: '12px', color: 'var(--b6-gray)' }}>
                 Политика конфиденциальности
               </Link>
               <Link href="/politika_v_otnoshenii_cookie" style={{ fontSize: '12px', color: 'var(--b6-gray)' }}>
