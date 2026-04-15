@@ -13,9 +13,9 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
-    "baseUrl": ".",
+    // "baseUrl": ".",  ← удалите эту строку
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // ← теперь путь указан явно относительно корня проекта
     }
   },
   "include": [
