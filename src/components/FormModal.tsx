@@ -56,8 +56,40 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
       }
     };
 
+    const [errorMessage, setErrorMessage] = useState<string>('');
+
+    const validateForm = () => {
+      if (!formData.name.trim() || formData.name.length < 2 || formData.name.length > 100) {
+        setErrorMessage('Имя должно содержать от 2 до 100 символов');
+        return false;
+      }
+      if (!formData.city.trim() || formData.city.length < 2 || formData.city.length > 100) {
+        setErrorMessage('Город должен содержать от 2 до 100 символов');
+        return false;
+      }
+      if (!/^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$/.test(formData.phone)) {
+        setErrorMessage('Неверный формат телефона. Используйте формат +7 (999) 999-99-99');
+        return false;
+      }
+      if (!formData.comment.trim() || formData.comment.length < 10 || formData.comment.length > 1000) {
+        setErrorMessage('Комментарий должен содержать от 10 до 1000 символов');
+        return false;
+      }
+      if (!formData.consent) {
+        setErrorMessage('Необходимо согласие на обработку персональных данных');
+        return false;
+      }
+      return true;
+    };
+
     const handleSubmit = async (e: React.FormEvent) => {
       e.preventDefault();
+      setErrorMessage('');
+
+      if (!validateForm()) {
+        return;
+      }
+
       setStatus('loading');
       try {
         const res = await fetch('/api/contact', {
@@ -65,6 +97,9 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData),
         });
+
+        const data = await res.json();
+
         if (res.ok) {
           setStatus('success');
           setIsSent(true);
@@ -73,12 +108,15 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
             setIsSent(false);
             setFormData({ name: '', city: '', phone: '+7 ', comment: '', consent: false });
             setStatus('idle');
-          }, 2000);
+            setErrorMessage('');
+          }, 3000);
         } else {
           setStatus('error');
+          setErrorMessage(data.message || 'Ошибка отправки заявки');
         }
-      } catch {
+      } catch (error) {
         setStatus('error');
+        setErrorMessage('Ошибка сети. Проверьте подключение к интернету.');
       }
     };
 
@@ -142,9 +180,9 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-            <a href="tel:+79662491036" style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '16px', textDecoration: 'none', color: 'inherit' }}>
+            <a href="tel:+79362998747" style={{ display: 'flex', alignItems: 'center', gap: '12px', fontSize: '16px', textDecoration: 'none', color: 'inherit' }}>
               <img src="/icons/phone.svg" alt="phone" width={25} height={25} />
-              +7 (991) 974-51-71            </a>
+              +7 (936) 299-87-47            </a>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
               <img src="/icons/email.svg" alt="email" width={25} height={25} />
               <span style={{ fontSize: '16px' }}>hello@decojoli.ru</span>
@@ -286,7 +324,9 @@ const FormModal = forwardRef<FormModalHandle, FormModalProps>(
                 {status === 'loading' ? 'Отправка...' : 'Отправить'}
               </button>
               {status === 'error' && (
-                <p style={{ fontSize: '12px', color: 'red' }}>Ошибка отправки. Попробуйте позже.</p>
+                <p style={{ fontSize: '14px', color: 'red', padding: '8px', background: '#ffeaea', borderRadius: '4px' }}>
+                  {errorMessage}
+                </p>
               )}
             </form>
           ) : (

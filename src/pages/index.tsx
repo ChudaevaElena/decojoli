@@ -57,7 +57,7 @@ export default function Home({ projects }: HomeProps) {
               "name": "decojoli",
               "description": "Изготовление премиальной мебели на заказ. Кухни, шкафы, мебель из массива дерева.",
               "url": "https://decojoli.ru",
-              "telephone": "+79662491036",
+              "telephone": "+79362998747",
               "email": "hello@decojoli.ru",
               "address": {
                 "@type": "PostalAddress",

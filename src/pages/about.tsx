@@ -31,7 +31,7 @@ export default function About() {
               "@type": "LocalBusiness",
               "name": "decojoli",
               "description": "Собственное производство полного цикла. 20 лет опыта, уникальные технологии, лучшие материалы.",
-              "telephone": "+79662491036",
+              "telephone": "+79362998747",
               "email": "hello@decojoli.ru",
               "address": {
                 "@type": "PostalAddress",

@@ -49,19 +49,26 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Настройка контактной формы
 
-## Learn More
+Для работы отправки писем через контактную форму необходимо настроить переменные окружения:
 
-To learn more about Next.js, take a look at the following resources:
+1. Создайте файл `.env.local` в корне проекта
+2. Добавьте следующие переменные:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+```env
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Настройка Gmail
 
-## Deploy on Vercel
+1. Включите двухфакторную аутентификацию в аккаунте Gmail
+2. Создайте пароль приложения: https://myaccount.google.com/apppasswords
+3. Используйте пароль приложения в `EMAIL_PASS`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Безопасность
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Никогда не коммитите `.env.local` в git
+- Добавьте `.env.local` в `.gitignore`
+- Используйте только пароли приложений, а не основной пароль Gmail
